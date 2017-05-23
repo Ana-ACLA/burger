@@ -1,5 +1,5 @@
-CREATE DATABASE burgers_db;
-USE burgers_db;
+CREATE DATABASE s31llhg1i794uidr;
+USE s31llhg1i794uidr;
 
 CREATE TABLE burgers
 (
@@ -9,3 +9,9 @@ CREATE TABLE burgers
     date TIMESTAMP,
 	PRIMARY KEY (id)
 );
+
+
+INSERT INTO burgers (burger_name, devoured) VALUES ('Chicken Sandwich', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Turkey Burger', false);
+
+select * from burgers
