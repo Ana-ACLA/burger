@@ -1,12 +1,12 @@
 body{
-	background-color:white;
-	color: black;
+	background-color:black;
+	color: blue;
 }
 
 li {
   padding: 5px;
   margin: 5px;
-  background: red;
+  background: lightblue;
 }
 
 element.style {
